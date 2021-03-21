@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h2>Generate a Password</h2>
+
+<p> 
+
+    <p>
+        <table border="1">
+        <tr><td>Number of Characters</td><td> <input type="text" id="NumChar" size="20" maxlength="20"></td><td>max 125 characters -- min 8 characters</td></tr>
+        <tr><td>Include Special Characters</td><td><input type="checkbox" id="SChar" size="20" maxlength="20"></td><td>( e.g. @#$% ) </td></tr>
+        <tr><td>Include Numbers </td><td><input type="checkbox" id="Inum" size="20" maxlength="20"></td><td>( e.g. 123456 ) </td></tr>
+        
+        <tr><td>IJnclude lowercase </td><td><input type="checkbox" id="ilower" size="20" maxlength="20"></td><td>( e.g. abcdefgh )</td></tr>
+        <tr><td>Include uppercase </td><td><input type="checkbox" id= "iupper" size="20" maxlength="20"></td><td>( e.g. ABCDEFGH )</td></tr>
+        
+
+        </td><td></td></tr>
+        </table>
+
+</p>
+
+      </div>
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="generate" class="btn">Generate Password</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="scriptthree.js"></script>
+</body>
+
+</html>
+125
